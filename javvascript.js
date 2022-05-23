@@ -68,3 +68,17 @@ else if(player2 === 6)
     document.getElementsByClassName("img2")[0].src="images/dice6.png";
 
 }
+
+if(player1>player2)
+{
+    document.getElementsByClassName("Result")[0].innerHTML="🚩Player 1 Wins!";
+}
+else if (player2 > player1)
+{
+    document.getElementsByClassName("Result")[0].innerHTML="🚩Player 2 Wins!";
+   
+}
+else{
+    document.getElementsByClassName("Result")[0].innerHTML="🚩Draw";
+
+}
